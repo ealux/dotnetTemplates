@@ -1,0 +1,26 @@
+{
+	"$schema":"hhtp://json.schemastore.org/template",
+	"author":"ealuhanov@yandex.ru",
+	"classifications":[ "ealux/mvvm" ],
+	"name":"WPF MVVM Infrastructure",
+	"identity":"wpf.mvvm",
+	"groupIdentity":"WPF",
+	"shortName":"mvvm",
+	"tags":{
+		"language":"C#",
+		"type":"items"
+	},
+	"sourceName":"MVVM",
+	"preferNameDirectory":true,
+	"sources":[
+		{
+			"modifiers":[
+				{
+					"exclude":[
+						"register.bat", "unregister.bat", ".gitignore", ".git/**", ".vs/**", "MVVM.csproj"
+					]
+				}
+			]
+		}	
+	]
+}

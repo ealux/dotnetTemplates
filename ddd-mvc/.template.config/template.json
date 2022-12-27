@@ -1,0 +1,32 @@
+{
+	"$schema":"hhtp://json.schemastore.org/template",
+	"author":"ealuhanov@yandex.ru",
+	"classifications":[ "ealux/mvc" ],
+	"name":"DDD solution",
+	"identity":"ddd.mvc",
+	"groupIdentity":"DDD",
+	"shortName":"ddd-mvc",
+	"tags":{
+		"language":"C#",
+		"type":"items"
+	},
+	"sourceName":"SolutionTemplate",
+	"preferNameDirectory":true,
+	"sources":[
+		{
+			"modifiers":[
+				{
+					"exclude":[
+						"register.bat", 
+						"unregister.bat", 
+						".gitignore", 
+						".git/**", 
+						".vs/**", 
+						"SolutionTemplate.csproj",
+						"**/wwwroot"
+					]
+				}
+			]
+		}	
+	]
+}

@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Common\\SolutionTemplate.Domain.Base\\SolutionTemplate.Domain.Base.csproj": {}
+  },
+  "projects": {
+    "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Common\\SolutionTemplate.Domain.Base\\SolutionTemplate.Domain.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Common\\SolutionTemplate.Domain.Base\\SolutionTemplate.Domain.Base.csproj",
+        "projectName": "SolutionTemplate.Domain.Base",
+        "projectPath": "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Common\\SolutionTemplate.Domain.Base\\SolutionTemplate.Domain.Base.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Common\\SolutionTemplate.Domain.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fefWe7626yXehwiFdpH3DmsET26xMbyMJprwxSq2bPvNExgIZB/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Services\\SolutionTemplate.Interfaces.Base\\SolutionTemplate.Interfaces.Base.csproj": {
+                "projectPath": "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Services\\SolutionTemplate.Interfaces.Base\\SolutionTemplate.Interfaces.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Services\\SolutionTemplate.Interfaces.Base\\SolutionTemplate.Interfaces.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Services\\SolutionTemplate.Interfaces.Base\\SolutionTemplate.Interfaces.Base.csproj",
+        "projectName": "SolutionTemplate.Interfaces.Base",
+        "projectPath": "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Services\\SolutionTemplate.Interfaces.Base\\SolutionTemplate.Interfaces.Base.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\13. Visual Studio source\\repos\\_Tutorials\\DotNetNew_Templates\\ddd-mvc\\Services\\SolutionTemplate.Interfaces.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/fefWe7626yXehwiFdpH3DmsET26xMbyMJprwxSq2bPvNExgIZB/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

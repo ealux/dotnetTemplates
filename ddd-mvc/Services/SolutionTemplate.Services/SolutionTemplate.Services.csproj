@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\SolutionTemplate.Domain\SolutionTemplate.Domain.csproj" />
+    <ProjectReference Include="..\SolutionTemplate.Interfaces\SolutionTemplate.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

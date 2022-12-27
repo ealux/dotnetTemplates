@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SolutionTemplate.Domain/1.0.0": {
+        "dependencies": {
+          "SolutionTemplate.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "SolutionTemplate.Domain.dll": {}
+        }
+      },
+      "SolutionTemplate.Interfaces/1.0.0": {
+        "dependencies": {
+          "SolutionTemplate.Interfaces.Base": "1.0.0"
+        },
+        "runtime": {
+          "SolutionTemplate.Interfaces.dll": {}
+        }
+      },
+      "SolutionTemplate.Interfaces.Base/1.0.0": {
+        "runtime": {
+          "SolutionTemplate.Interfaces.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SolutionTemplate.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SolutionTemplate.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SolutionTemplate.Interfaces.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
